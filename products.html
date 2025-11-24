@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmed Studios – Products</title>
+    <meta name="description" content="Browse our trendy clothing collections.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style> 
+body {
+
+   font-family: cursive;
+   background-color: oldlace;
+}
+
+
+footer {
+
+  background-color: darkolivegreen;
+ 
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title,
+.card .price {
+    transition: color 0.3s ease;
+}
+
+.card:hover .price {
+    color: maroon;
+}
+
+
+
+</style>
+
+<body>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Charmed Studios</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item mx-2"><a class="nav-link active" href="products.html">Products</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<section class="container mt-5">
+    <h2 class="mb-4 text-center fw-bold">Browse Our Collection</h2>
+
+    <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="babyteefinal.jpg" class="card-img-top" alt="Tee">
+                <div class="card-body">
+                    <h5 class="card-title">Chic Baby Tee</h5>
+                    <h5 class="price">Php. 350.00</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="blousefinal.jpg" class="card-img-top" alt="Blouse">
+                <div class="card-body">
+                    <h5 class="card-title">Plaid Baby Blouse</h5>
+                    <h5 class="price">Php. 520.00</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="swimsuitfinal.jpg" class="card-img-top" alt="Swim">
+                <div class="card-body">
+                    <h5 class="card-title">Vintage Strawberry One Piece Swimsuit</h5>
+                    <h5 class="price">Php. 420.00</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="skirfinal.jpg" class="card-img-top" alt="Skirt">
+                <div class="card-body">
+                    <h5 class="card-title">Pleated Mini Skirt</h5>
+                    <h5 class="price">Php. 550.00</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="jeansfinal.jpg" class="card-img-top" alt="Jeans">
+                <div class="card-body">
+                    <h5 class="card-title">Retro Striped Jeans</h5>
+                    <h5 class="price">Php. 850</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <img src="dressfinal.jpg" class="card-img-top" alt="Dress">
+                <div class="card-body">
+                    <h5 class="card-title">Polka dotty Baby Dress</h5>
+                     <h5 class="price">Php. 1,200.00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-3 mt-5">
+    © 2025 Charmed Studios – All Rights Reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmed Studios – Home</title>
+    <meta name="description" content="Trendy and stylish apparel for modern fashion lovers.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+body {
+
+   font-family: cursive;
+   background-color: oldlace;
+}
+/* featured collections text */
+h2.fw-bold {
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+h5 {
+  font-size: xx-large;
+}
+
+/* effect on featured collections */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px); /* image moves up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* adds depth */
+}
+/* navigation buttons */
+.nav-text {
+    font-size: 1rem; 
+    font-weight: bold;  
+    
+}
+/* Nav bar colors */
+.navbar-nav .nav-link.nav-text {
+    color: black !important;      
+    font-size: 1.5rem;               
+    font-weight: bold;
+    transition: color 0.3s ease;     
+}
+
+/* Navbar link hover */
+.navbar-nav .nav-link.nav-text:hover {
+    color:darkolivegreen !important;        
+}
+
+/* Navbar background */
+.navbar {
+    width: 100%;                       
+    padding: 2rem 2rem;                 
+    background-color: whitesmoke !important; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+footer {
+
+  background-color: darkolivegreen;
+ 
+}
+
+
+
+</style>
+
+<!-- HEADER -->
+
+<body>
+  
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-center position-relative" id="navbarNav">
+      <ul class="navbar-nav position-absolute start-50 translate-middle-x">
+        <li class="nav-item mx-3"><a class="nav-link nav-text" href="index.html">Home</a></li>
+        <li class="nav-item mx-3"><a class="nav-link nav-text" href="products.html">Products</a></li>
+        <li class="nav-item mx-3"><a class="nav-link nav-text" href="register.html">Register</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+</header>
+
+</header>
+
+
+<!-- IMG -->
+
+<section class="text-center mt-4">
+    <h1 id="greeting"></h1>
+    <img src="homepage model.jpg" class="img-fluid homepage-img" alt="Female model showcasing clothes">
+</section>
+
+<!-- FEATURED COLLECTION -->
+
+<section class="container-fluid mt-5 text-center">
+    <h2 class="fw-bold mb-3">Featured Collection</h2>
+
+ <div class="row g-4 justify-content-center">
+
+    <div class="col-md-4 col-sm-6 position-relative">
+        <img src="new arrivals.jpg" class="img-fluid rounded hover-lift" alt="New Arrivals">
+        <h5 class="position-absolute top-50 start-50 translate-middle text-white">
+            New Arrivals
+        </h5>
+    </div>
+
+    <div class="col-md-4 col-sm-6 position-relative">
+        <img src="fall.jpg" class="img-fluid rounded hover-lift" alt="Fall Collection">
+        <h5 class="position-absolute top-50 start-50 translate-middle text-white">
+            Fall Collection
+        </h5>
+    </div>
+
+</div>
+
+
+
+<!-- FOOTER -->
+
+<footer class="text-center py-3 mt-5">
+    © 2025 Charmed Studios – All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
